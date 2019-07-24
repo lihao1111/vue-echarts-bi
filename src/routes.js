@@ -54,7 +54,7 @@ export default new Router({
       name: '订购分析',
       iconCls: 'el-icon-shopping-cart-full',
       children: [
-        { path: '/orderAna', component: () => import('./views/orderAna/OrderAna.vue'), name: '订购/退订' },
+        { path: '/orderAna', component: () => import('./views/orderAna/OrderAna.vue'), name: '订购/退订信息' },
         { path: '/orderSource', component: () => import('./views/orderAna/OrderSource.vue'), name: '订购来源' }
       ]
     },
